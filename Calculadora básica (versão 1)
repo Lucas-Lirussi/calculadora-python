@@ -1,0 +1,17 @@
+# Calculadora básica
+# Versão 1 - Estruturas condicionais
+
+a = int(input("Digite o primeiro número: "))
+b = int(input("Digite o segundo número: "))
+operacao = input("Digite a operação (+, -, *, /): ")
+
+if operacao == "+":
+    print(a + b)
+elif operacao == "-":
+    print(a - b)
+elif operacao == "*":
+    print(a * b)
+elif operacao == "/":
+    print(a / b)
+else:
+    print("Operação inválida")
