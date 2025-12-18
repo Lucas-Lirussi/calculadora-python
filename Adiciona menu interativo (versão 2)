@@ -1,0 +1,23 @@
+# Calculadora com menu
+# Versão 2 - Menu interativo
+
+print("1 - Soma")
+print("2 - Subtração")
+print("3 - Multiplicação")
+print("4 - Divisão")
+
+opcao = input("Escolha uma opção: ")
+
+a = float(input("Digite o primeiro número: "))
+b = float(input("Digite o segundo número: "))
+
+if opcao == "1":
+    print(a + b)
+elif opcao == "2":
+    print(a - b)
+elif opcao == "3":
+    print(a * b)
+elif opcao == "4":
+    print(a / b)
+else:
+    print("Opção inválida")
