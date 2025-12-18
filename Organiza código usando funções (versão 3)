@@ -1,0 +1,36 @@
+# Calculadora com funções
+# Versão 3 - Organização do código
+
+def soma(a, b):
+    return a + b
+
+def subtracao(a, b):
+    return a - b
+
+def multiplicacao(a, b):
+    return a * b
+
+def divisao(a, b):
+    return a / b
+
+
+print("1 - Soma")
+print("2 - Subtração")
+print("3 - Multiplicação")
+print("4 - Divisão")
+
+opcao = input("Escolha uma opção: ")
+
+a = float(input("Digite o primeiro número: "))
+b = float(input("Digite o segundo número: "))
+
+if opcao == "1":
+    print(soma(a, b))
+elif opcao == "2":
+    print(subtracao(a, b))
+elif opcao == "3":
+    print(multiplicacao(a, b))
+elif opcao == "4":
+    print(divisao(a, b))
+else:
+    print("Opção inválida")
